@@ -23,4 +23,5 @@
                          (:file "pins")
                          (:file "api")
                          (:file "reactions")
-                         (:file "channels")))))
+                         (:file "channels")
+                         (:file "users")))))

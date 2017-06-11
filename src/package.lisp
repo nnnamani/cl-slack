@@ -43,3 +43,15 @@
   (:export archive create info invite join kick leave 
            mark rename replies set-purpose set-topic
            unarchive history list))
+
+(defpackage :cl-slack.users
+  (:use :cl)
+  (:shadow list)
+  (:export list))
+
+
+
+
+
+
+
